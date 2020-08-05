@@ -1,0 +1,76 @@
+body{
+  -webkit-font-smoothing: antialiased;
+  max-width: 100%;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Oxygen,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+  margin: 0;
+  background-color: #e4eddb;
+}
+
+.top{
+  position: relative;
+  background-color: #e4eddb;
+  height: 15%;
+  width: 100%;
+  font-size: 150%;
+}
+
+.centre{
+  height: 600px;
+  width: 100%;
+  margin: 0 0 0 0;
+  position: relative;
+  background-color: #1a3c40;
+}
+.tag{
+  text-align: left;
+  position: absolute;
+  width: 50%;
+  margin: 200px 0 300px 30px;
+}
+
+h1{
+  color: #e4eddb;
+  font-size: 400%;
+  font-weight: bold;
+}
+
+h2{
+  color: #e4eddb;
+  font-size: 200%;
+  font-weight: lighter;
+}
+
+#logo{
+  display: inline-block;
+  width: 60%;
+  height: 10%;
+  color: #1a3c40;
+  font-size: 150%;
+  font-weight: bolder;
+  padding-left: 3rem;
+}
+
+.tright{
+  display: inline-block;
+  margin: 0 2% 0 2%;
+}
+
+.s1{
+  height: 300px;
+  width: 300px;
+  margin: auto;
+}
+
+.s2{
+  height: 300px;
+  width: 300px;
+  margin: auto;
+}
+
+.desc{
+  margin: auto;
+}
